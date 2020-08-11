@@ -23,6 +23,7 @@ module SpreeAdminInsights
     config.to_prepare &method(:activate).to_proc
 
     config.after_initialize do
+
     end
   end
 end
