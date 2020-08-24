@@ -1,20 +1,20 @@
 es:
   spree:
     admin:
-      day_name: Day
-      hour_name: Hour
-      month_name: Month
-      year: Year
-    finance_analysis: Finance Analysis
-    product_analysis: Product Analysis
-    promotion_analysis: Promotion Analysis
-    trending_search_analysis: Trending Search Analysis
-    user_analysis: User Analysis
+      day_name: Día
+      hour_name: Hora
+      month_name: Mes
+      year: Año
+    finance_analysis: Finanzas
+    product_analysis: Productos
+    promotion_analysis: Promociones
+    trending_search_analysis: Búsquedas
+    user_analysis: Usuarios
     insights: Insights
     insight:
       heading: 'Insights: %{type}'
       tab_heading: Insights
-      not_found: Report not found.
+      not_found: Reporte no encontrado.
       product_views:
         title:  Product Show Page Views
         description: To fetch the number of times Product Show page is viewed by the Customers.
@@ -35,7 +35,7 @@ es:
         product_name: Product
         quantity_change: Cart Removal(Qty)
         removals: Removals
-        sku: Variant
+        sku: Variante
       cart_updations:
         title: Product Updation
         description: Will project the data about how many times product has been updated from the cart.
@@ -81,63 +81,63 @@ es:
         months_name: Month
         guest_users: Unique Guests
         active_users: Unique Active Users(Registered)
-        new_sign_ups: New Users
+        new_sign_ups: Usuarios nuevos
       payment_method_transactions:
-        title: Payment Method Transactions Count
-        description: Transactions from different payment methods
-        payment_method_name: Payment Method
-        payment_amount: Transaction Amount
-        months_name: Month
+        title: Transacciones por medio de pago
+        description: Transacciones por medio de pago
+        payment_method_name: Medio de pago
+        payment_amount: Monto transacción
+        months_name: Mes
       payment_method_transactions_conversion_rate:
-        payment_method_name: Payment Method
-        title: Payment Method Transaction Conversion Rate
-        description: Success/Failure rate of different payment methods
-        month_name: Month
-        payment_state: Payment State
-        count: Count
+        payment_method_name: Medios de pago
+        title: Conversión por medio de pago
+        description: Taza de Éxito/Rechazo por medio de pago
+        month_name: Mes
+        payment_state: Estado de pago
+        count: Cantidad
       promotional_cost:
-        title: Promotional Cost
-        description: Total money invested on a particular promotion  - Admin will view total money invested, total revenue and profit from a particular promotion.
-        promotion_code: Code
-        promotion_discount: Discount
-        promotion_name: Promotion
-        promotion_start_date: Start Date
-        promotion_end_date: End Date
-        usage_count: Usage Count
-        months_name: Month
+        title: Costo Promociones
+        description: Total de invertido por cada promoción
+        promotion_code: Código
+        promotion_discount: Descuento
+        promotion_name: Promoción
+        promotion_start_date: Inicio
+        promotion_end_date: Finaliza
+        usage_count: Usos
+        months_name: Mes
       annual_promotional_cost:
-        title: Annual Promotional Cost
-        description: Total money invested on a particular promotion  - Admin will view total money invested, total revenue and profit from a particular promotion.
-        promotion_discount: Discount
-        promotion_name: Promotion
-        usage_count: Usage Count
+        title: Costo de promociones Anual
+        description: Total de invertido por cada promoción
+        promotion_discount: Descuento
+        promotion_name: Promoción
+        usage_count: Usos
       sales_performance:
-        title: Sales Performance
-        description: Info about revenue, tax, shipment total and return amount.
-        adjustment_total: Adjustment Total
-        cost_price: Cost Price
-        months_name: Month
-        profit_loss: Profit/Loss
-        profit_loss_percent: Profit/Loss %
-        refund_amount: Refund Amount
-        revenue: Revenue
-        sale_price: Sale Price
-        shipping_charges: Shipping Charges
-        tax: Tax
-        promotion_discount: Promotional Discounts
+        title: Performance Ventas
+        description: Información acerca de ingresos, impuestos, envíos y devoluciones.
+        adjustment_total: Total descuentos
+        cost_price: Costo
+        months_name: Mes
+        profit_loss: Ganancia/Pérdida
+        profit_loss_percent: Ganancia/Pérdida %
+        refund_amount: Monto devolución
+        revenue: Ganancias
+        sale_price: Precio venta
+        shipping_charges: Cargo de envíos
+        tax: Impuestos
+        promotion_discount: Descuentos Promocionales
       unique_purchases:
-        title: Unique Purchases
+        title: Compras únicas
         description: Will project the data about how many unique users have purchased a particular product.
-        product_name: Product
+        product_name: Producto
         sku: Variant
-        sold_count: Sold Count
+        sold_count: Cantidad de venta
         users: Users
       best_selling_products:
-        title: Best Selling Products
-        description: Best/least Selling Products as per maximum quantities purchased.
-        product_name: Product
-        sku: Variant
-        sold_count: Sold Quantity
+        title: Mejores productos vendidos
+        description: Mejores/Peories productos vendidos
+        product_name: Producto
+        sku: Variante
+        sold_count: Cantidad
       product_views_to_purchases:
         title: Product 'Views' To 'Purchases'
         description: Ratio of number of views (on product show page) to number of times product has been purchased after view.
@@ -146,20 +146,20 @@ es:
         views: Views
         purchase_to_view_ratio: Purchase To View Ratio
       returned_products:
-        title: Product Returned
-        description: Number of products returned
-        product_name: Product
-        return_count: Returned Count
-        sku: Variant
+        title: Devoluciones
+        description: Número de productos devueltos
+        product_name: Producto
+        return_count: Cantidad
+        sku: Variante
       shipping_cost:
-        title: Shipping Cost
-        name: Shipping Method Name
-        months_name: Month
-        shipping_charge: Shipping Charge
-        revenue: Revenue
-        shipping_cost_percentage: Shipping Cost %
+        title: Costo envío
+        name: Nombre
+        months_name: Mes
+        shipping_charge: Cargo envío
+        revenue: Ganancia
+        shipping_cost_percentage: Costo envío %
       sales_tax:
-        title: Sales Tax
-        months_name: Month
-        zone_name: Zone
-        sales_tax: Sales Tax
+        title: Impuestos
+        months_name: Mes
+        zone_name: Zona
+        sales_tax: Impuesto venta
