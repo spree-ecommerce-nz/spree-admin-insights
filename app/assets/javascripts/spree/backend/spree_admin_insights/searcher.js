@@ -73,7 +73,30 @@ Searcher.prototype.addSearchStatus = function () {
 Searcher.prototype.addSearchForm = function(data) {
   this.$filters.find('#table-filter').empty().append($(tmpl('search-tmpl', data)));
   this.$filterForm = this.$filters.find('#filter-search');
-  this.$filters.find('.datepicker').datepicker({ dateFormat: 'yy-mm-dd' });
+
+  var dateFrom = flatpickr('.datePickerFrom', {
+    time_24hr: true,
+    dateFormat: Spree.translations.date_picker,
+    monthSelectorType: 'static',
+    onChange: function (selectedDates) {
+      dateTo.set('minDate', selectedDates[0])
+    }
+  })
+
+  var dateTo = flatpickr('.datePickerTo', {
+    monthSelectorType: 'static',
+    time_24hr: true,
+    dateFormat: Spree.translations.date_picker,
+    onChange: function (selectedDates) {
+      dateFrom.set('maxDate', selectedDates[0])
+    }
+  })
+
+  flatpickr('.datepicker', {
+    monthSelectorType: 'static',
+    time_24hr: true,
+    dateFormat: Spree.translations.date_picker
+  })
 };
 
 Searcher.prototype.setFormActions = function($form, path) {
