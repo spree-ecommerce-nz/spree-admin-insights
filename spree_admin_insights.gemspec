@@ -37,4 +37,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'shoulda-matchers'
   s.add_dependency 'wicked_pdf'
   s.add_dependency 'wkhtmltopdf-binary'
+  s.add_dependency 'flatpickr'
 end
